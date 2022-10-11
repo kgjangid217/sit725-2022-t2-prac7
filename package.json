@@ -1,0 +1,43 @@
+{
+  "name": "sit725-2022-t2-prac7",
+  "version": "0.0.0",
+  "description": "sit 725 week 7 prac",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgjangid217/sit725-2022-t2-prac7.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Kartik Jangid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kgjangid217/sit725-2022-t2-prac7/issues"
+  },
+  "homepage": "https://github.com/kgjangid217/sit725-2022-t2-prac7#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cf-deployment-tracker-client": "^0.1.4",
+    "chai": "^4.3.6",
+    "commander": "^9.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.18.1",
+    "mocha": "^10.0.0",
+    "mongodb": "^4.9.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.2"
+  }
+}
